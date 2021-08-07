@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+
+* {
+  font-family: "Gowun Dodum", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #eee;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.incomeBorder {
+  border-right: 3px solid #008000;
+}
+
+.expenseBorder {
+  border-right: 3px solid #ff0000;
+}
+
+.incomeActive {
+  color: #008000;
+  background: #fff;
+}
+
+.expenseActive {
+  color: #ff0000;
+}
